@@ -172,6 +172,104 @@ body {
 	background-color: #040c26;
 }
 
+/* document.php stylesheet */
+#document { height: 705px; }
+
+#document .header {
+	background-image: url(assets/image/common/nav_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 80px;
+}
+
+#document .content {
+	background-image: url(assets/image/8/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 625px;
+}
+
+#document .title {
+	font-size: 36px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	top: 86px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#document .arrow {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 29px;
+	height: 46px;
+	top: 336px;
+	position: absolute;
+	cursor: pointer;
+}
+
+#document .leftarrow {
+	background-image: url(assets/image/5/document_arrow_left.png);
+	left: 0px;
+}
+
+#document .rightarrow {
+	background-image: url(assets/image/5/document_arrow_right.png);
+	left: 995px;
+}
+
+#document .scrollrect {
+	position: absolute;
+	height: 354px;
+	width: 824px;
+	overflow: hidden;
+	top: 182px;
+	left: 130px;
+}
+
+#document .cell {
+	position: absolute;
+	height: 354px;
+	width: 259px;
+	cursor: pointer;
+}
+
+#document .cell-bg {
+	background-image: url(assets/image/5/document_pic.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 354px;
+	width: 259px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+
+#document .cell-title {
+	width: 100%;
+	position: absolute;
+	top: 260px;
+	left: 0px;
+	padding-left: 24px;
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	text-align: left;
+}
+
+#document .cell-subtitle {
+	width: 100%;
+	position: absolute;
+	top: 290px;
+	left: 0px;
+	padding-left: 24px;
+	font-size: 18px;
+	color: #999999;
+	text-align: left;
+}
+
 /* contact.php stylesheet */
 #contact { height: 733px; }
 
@@ -232,6 +330,74 @@ body {
 	font-weight: bold;
 }
 
+#contact .icon {
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+}
+
+#contact .icon1 {
+	background-image: url(assets/image/8/contact_icon1.png);
+	top: 350px;
+	left: 303px;
+}
+
+#contact .icon2 {
+	background-image: url(assets/image/8/contact_icon2.png);
+	top: 350px;
+	left: 417px;
+}
+
+#contact .icon3 {
+	background-image: url(assets/image/8/contact_icon3.png);
+	top: 350px;
+	left: 531px;
+}
+
+#contact .icon4 {
+	background-image: url(assets/image/8/contact_icon4.png);
+	top: 350px;
+	left: 645px;
+}
+
+#contact .icon5 {
+	background-image: url(assets/image/8/contact_icon5.png);
+	top: 462px;
+	left: 189px;
+}
+
+#contact .icon6 {
+	background-image: url(assets/image/8/contact_icon6.png);
+	top: 462px;
+	left: 303px;
+}
+
+#contact .icon7 {
+	background-image: url(assets/image/8/contact_icon7.png);
+	top: 462px;
+	left: 417px;
+}
+
+#contact .icon8 {
+	background-image: url(assets/image/8/contact_icon8.png);
+	top: 462px;
+	left: 531px;
+}
+
+#contact .icon9 {
+	background-image: url(assets/image/8/contact_icon9.png);
+	top: 462px;
+	left: 645px;
+}
+
+#contact .icon10 {
+	background-image: url(assets/image/8/contact_icon10.png);
+	top: 462px;
+	left: 759px;
+}
 
 /* footer.php stylesheet */
 #footer {
