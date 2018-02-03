@@ -869,6 +869,195 @@ body {
 	top: 1980px;
 }
 
+/* whattosolve.php stylesheet */
+#whattosolve { height: 1545px; }
+
+#whattosolve .header {
+	background-image: url(assets/image/1/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 660px;
+}
+
+#whattosolve .title {
+	font-size: 46px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	top: 85px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#whattosolve .titleicon {
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 71px;
+	height: 78px;
+	position: absolute;
+}
+
+#whattosolve .ti1 {
+	background-image: url(assets/image/1/icon_inefficiency.png);
+	top: 245px;
+	left: 156px;
+}
+
+#whattosolve .ti2 {
+	background-image: url(assets/image/1/icon_dominant_power.png);
+	top: 393px;
+	left: 255px;
+}
+
+#whattosolve .ti3 {
+	background-image: url(assets/image/1/icon_incentive.png);
+	top: 313px;
+	left: 522px;
+}
+
+#whattosolve .ti4 {
+	background-image: url(assets/image/1/icon_opaque.png);
+	top: 409px;
+	left: 750px;
+}
+
+#whattosolve .ti5 {
+	background-image: url(assets/image/1/icon_rent.png);
+	top: 223px;
+	left: 817px;
+}
+
+#whattosolve .titext {
+	width: 200px;
+	top: 78px;
+	left: -65px;
+	text-align: center;
+	position: absolute;
+	font-size: 18px;
+	color: rgb(255, 255 , 255);
+}
+
+#whattosolve .content {
+	background-color: rgb(255, 255, 255);
+	height: 885px;
+}
+
+#whattosolve .line1 {
+	width: 1px;
+	height: 227px;
+	background-color: #eeeeee;
+	top: 120px;
+	left: 511px;
+	position: absolute;
+}
+
+#whattosolve .line2 {
+	width: 488px;
+	height: 1px;
+	background-color: #eeeeee;
+	top: 365px;
+	left: 0px;
+	position: absolute;
+}
+
+#whattosolve .line3 {
+	width: 488px;
+	height: 1px;
+	background-color: #eeeeee;
+	top: 365px;
+	left: 536px;
+	position: absolute;
+}
+
+#whattosolve .line4 {
+	width: 1px;
+	height: 385px;
+	background-color: #eeeeee;
+	top: 390px;
+	left: 511px;
+	position: absolute;
+}
+
+#whattosolve .container {
+	width: 450px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	min-height: 85px;
+}
+
+#whattosolve .c1 {
+	top: 115px;
+	left: 0px;
+	background-image: url(assets/image/1/icon_artist.png);
+}
+
+#whattosolve .c2 {
+	top: 114px;
+	left: 580px;
+	background-image: url(assets/image/1/icon_service_provider.png);
+}
+
+#whattosolve .c3 {
+	top: 422px;
+	left: 0px;
+	background-image: url(assets/image/1/icon_fans.png);
+}
+
+#whattosolve .c4 {
+	top: 417px;
+	left: 580px;
+	background-image: url(assets/image/1/icon_service.png);
+}
+
+#whattosolve .container-title {
+	width: 100%;
+	padding-left: 115px;
+	position: absolute;
+	font-size: 36px;
+	font-weight: bold;
+	color: #3a414b;
+	text-align: left;
+	line-height: 28px;
+}
+
+#whattosolve .ct1 {
+	padding-top: 30px;
+}
+
+#whattosolve .ct2 {
+	padding-top: 23px;
+}
+
+#whattosolve .ct3 {
+	padding-top: 28px;
+}
+
+#whattosolve .ct4 {
+	padding-top: 0px;
+}
+
+#whattosolve .detail-container {
+	width: 100%;
+	top: 120px;
+	position: absolute;
+}
+
+#whattosolve .detail {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	background-image: url(assets/image/1/icon_square.png);
+	padding-left: 35px;
+	margin-bottom: 5px;
+	line-height: 28px;
+	min-height: 18px;
+	text-align: left;
+	font-size: 18px;
+	color: #a7a7a9;
+}
+
 /* contact.php stylesheet */
 #contact { height: 733px; }
 
