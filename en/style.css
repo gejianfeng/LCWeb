@@ -20,6 +20,24 @@ body {
 	position: relative;
 }
 
+.flipx {
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;
+}
+
+.flipy {
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+    /*IE*/
+    filter:FlipV;
+}
+
 .text-transparent {
 	opacity: 0.65;
 }
@@ -460,6 +478,110 @@ body {
 	color: #999999;
 	text-align: left;
 }
+
+/* roadmap.php stylesheet */
+#roadmap { height: 838px; }
+
+#roadmap .header {
+	background-image: url(assets/image/common/nav_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 80px;
+}
+
+#roadmap .content {
+	background-image: url(assets/image/4/roadmap_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 758px;
+}
+
+#roadmap .title {
+	font-size: 42px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	top: 90px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#timeline {
+	background-image: url(assets/image/4/roadmap_line.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 830px;
+	height: 23px;
+	left: 97px;
+	top: 415px;
+	position: absolute;
+}
+
+#timeline .date {
+	font-size: 18px;
+	font-weight: bold;
+	color: #28ebfd;
+	position: absolute;
+}
+
+#timeline .topdate {
+	top: -35px;
+}
+
+#timeline .bottomdate {
+	top: 35px;
+}
+
+#timeline .d1 { left: 190px; }
+#timeline .d2 { left: 340px; }
+#timeline .d3 { left: 490px; }
+#timeline .d4 { left: 640px; }
+#timeline .d5 { left: 790px; }
+
+#timeline .frame {
+	background-image: url(assets/image/4/roadmap_chart.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 220px;
+	height: 167px;
+	position: absolute;
+}
+
+#timeline .topframe {
+	top: -210px;
+}
+
+#timeline .bottomframe {
+	top: 70px;
+}
+
+#timeline .f1 { left: 0px; }
+#timeline .f2 { left: 150px; }
+#timeline .f3 { left: 300px; }
+#timeline .f4 { left: 450px; }
+#timeline .f5 { left: 600px; }
+
+#timeline .text-area {
+	width: 220px;
+	height: 167px;
+	position: absolute;
+	display: table;
+}
+
+#timeline .text {
+	text-align: left;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	display: table-cell;
+    vertical-align: middle;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+#timeline .toptext { padding-bottom: 15px; }
+#timeline .bottomtext { padding-top: 15px; }
 
 /* contact.php stylesheet */
 #contact { height: 733px; }
