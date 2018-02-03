@@ -163,6 +163,92 @@ body {
 	background-position: center;
 }
 
+#index .title {
+	font-size: 46px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	top: 82px;
+	width: 100%;
+	left: 0px;
+	text-align: left;
+	position: absolute;
+}
+
+#index .sub-title {
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	top: 300px;
+	width: 100%;
+	left: 0px;
+	text-align: left;
+	position: absolute;
+}
+
+#livecoins {
+	background-image: url(assets/image/0/home_pic.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 444px;
+	width: 454px;
+	top: 122px;
+	left: 574px;
+	position: absolute;
+}
+
+#livecoins .text {
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	position: absolute;
+}
+
+#livecoins .ds {
+	top: 100px;
+	left: 73px;
+}
+
+#livecoins .sm {
+	top: 100px;
+	left: 290px;
+}
+
+#livecoins .ep {
+	top: 330px;
+	left: -30px;
+}
+
+#livecoins .af {
+	top: 330px;
+	left: 330px;
+	width: 160px;
+}
+
+#livecoins .tp {
+	top: 450px;
+	left: 175px;
+}
+
+#video {
+	background-image: url(assets/image/0/home_video.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 266px;
+	width: 443px;
+	top: 430px;
+	left: 0px;
+	position: absolute;
+}
+
+#video .play {
+	background-image: url(assets/image/0/home_button_start.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 64px;
+	width: 64px;
+	top: 101px;
+	left: 190px;
+	position: absolute;
+}
+
 #index .content {
 	width:100%;
 	height:565px;
@@ -170,6 +256,111 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #040c26;
+}
+
+#index .content-img {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 98px;
+	width: 92px;
+	top: 106px;
+	position: absolute;
+}
+
+#index .img-tts {
+	background-image: url(assets/image/0/home_icon_total.png);
+	left: 154px;
+}
+
+#index .img-sc {
+	background-image: url(assets/image/0/home_icon_soft.png);
+	left: 466px;
+}
+
+#index .img-hc {
+	background-image: url(assets/image/0/home_icon_hard.png);
+	left: 778px;
+}
+
+#index .content-title {
+	font-size: 34px;
+	color: #ffd733;
+	position: absolute;
+	top: 126px;
+	width: 300px;
+	left: -104px;
+}
+
+#index .content-sub-title {
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 182px;
+	width: 300px;
+	left: -104px;
+}
+
+#index .btn {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	width: 213px;
+	height: 46px;
+	top: 400px;
+	cursor:pointer;
+}
+
+#index .btn-whitepaper {
+	background-image: url(assets/image/0/home_button_unselected_blue.png);
+	left: 161px;
+}
+
+#index .btn-presentation {
+	background-image: url(assets/image/0/home_button_unselected_blue.png);
+	left: 405px;
+}
+
+#index .btn-tutorial {
+	background-image: url(assets/image/0/home_button_unselected_blue.png);
+	left: 649px;
+}
+
+#index .btn-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+}
+
+#index .icon-whitepaper {
+	background-image: url(assets/image/0/home_icon_whitepaper_unselected.png);
+	width: 22px;
+	height: 24px;
+	left: 30px;
+	top: 10px;
+}
+
+#index .icon-presentation {
+	background-image: url(assets/image/0/home_icon_presentation_unselected.png);
+	width: 27px;
+	height: 27px;
+	left: 20px;
+	top: 10px;
+}
+
+#index .icon-tutorial {
+	background-image: url(assets/image/0/home_icon_tutorial_unselected.png);
+	width: 29px;
+	height: 27px;
+	left: 45px;
+	top: 10px;
+}
+
+#index .icon-text {
+	font-size: 24px;
+	color: rgb(255, 255, 255);
+	padding-left: 25px;
+	top: -5px;
+	position: absolute;
 }
 
 /* document.php stylesheet */
