@@ -1058,6 +1058,311 @@ body {
 	color: #a7a7a9;
 }
 
+/* tokeninfo.php stylesheet */
+#tokeninfo { height: 2968px; }
+
+#tokeninfo .header {
+	background-image: url(assets/image/1/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 703px;
+}
+
+#tokeninfo .content {
+	background-color: #050c26;
+	height: 2265px;
+}
+
+#tokeninfo .title {
+	font-size: 42px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	top: 95px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#tokeninfo .title-frame {
+	background-image: url(assets/image/3/Token_rectangle.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	width: 235px;
+	height: 266px;
+	top: 215px;
+}
+
+#tokeninfo .tf1 {
+	left: 0px;
+}
+
+#tokeninfo .tf2 {
+	left: 263px;
+}
+
+#tokeninfo .tf3 {
+	left: 526px;
+}
+
+#tokeninfo .tf4 {
+	left: 789px;
+}
+
+#tokeninfo .title-icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 38px;
+	width: 90px;
+	height: 95px;
+	left: 73px;
+}
+
+#tokeninfo .ti1 {
+	background-image: url(assets/image/3/Token_icon1.png);
+}
+
+#tokeninfo .ti2 {
+	background-image: url(assets/image/3/Token_icon2.png);
+}
+
+#tokeninfo .ti3 {
+	background-image: url(assets/image/3/Token_icon3.png);
+}
+
+#tokeninfo .ti4 {
+	background-image: url(assets/image/3/Token_icon4.png);
+}
+
+#tokeninfo .title-frame-container {
+	width: 100%;
+	height: 133px;
+	position: absolute;
+	top: 133px;
+	display: table;
+}
+
+#tokeninfo .title-frame-content {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	height: 133px;
+}
+
+#tokeninfo .content-title {
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	position: absolute;
+}
+
+#tokeninfo .content-title-1 { top: 110px; }
+#tokeninfo .content-title-2 { top: 1045px; }
+
+#tokeninfo .content-table-title-l {
+	left: 60px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #42b4e0;
+	top: 195px;
+	text-align: left;
+	position: absolute;
+}
+
+#tokeninfo .content-table-title-r {
+	left: 463px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #42b4e0;
+	top: 195px;
+	text-align: left;
+	position: absolute;
+}
+
+#tokeninfo .content-gray-line {
+	width: 100%;
+	height: 2px;
+	left: 0px;
+	position: absolute;
+	background-color: #3e424d;
+}
+
+#tokeninfo .content-table-title-line { top: 278px; }
+#tokeninfo .content-table-l1 { top: 348px; }
+#tokeninfo .content-table-l2 { top: 418px; }
+#tokeninfo .content-table-l3 { top: 488px; }
+#tokeninfo .content-table-l4 { top: 558px; }
+#tokeninfo .content-table-l5 { top: 628px; }
+#tokeninfo .content-table-l6 { top: 698px; }
+#tokeninfo .content-table-l7 { top: 768px; }
+#tokeninfo .content-table-l8 { top: 838px; }
+#tokeninfo .content-table-l9 { top: 908px; }
+
+#tokeninfo .content-table-row-left {
+	left: 60px;
+	font-size: 18px;
+	color: #42b4e0;
+	text-align: left;
+	position: absolute;
+}
+
+#tokeninfo .content-table-row-right {
+	left: 463px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	position: absolute;
+}
+
+#tokeninfo .content-table-r1 { top: 304px; }
+#tokeninfo .content-table-r2 { top: 374px; }
+#tokeninfo .content-table-r3 { top: 444px; }
+#tokeninfo .content-table-r4 { top: 514px; }
+#tokeninfo .content-table-r5 { top: 584px; }
+#tokeninfo .content-table-r6 { top: 654px; }
+#tokeninfo .content-table-r7 { top: 724px; }
+#tokeninfo .content-table-r8 { top: 794px; }
+#tokeninfo .content-table-r9 { top: 864px; }
+
+#tokeninfo .btc-icon {
+	background-image: url(assets/image/3/icon_BTB.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	top: 855px;
+	left: 463px;
+}
+
+#tokeninfo .btc-name {
+	left: 510px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	position: absolute;
+}
+
+#tokeninfo .eth-icon {
+	background-image: url(assets/image/3/icon_ETH.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	top: 855px;
+	left: 645px;
+}
+
+#tokeninfo .eth-name {
+	left: 695px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-align: left;
+	position: absolute;
+}
+
+#tokeninfo .chart {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 1165px;
+	width: 405px;
+	height: 405px;
+}
+
+#tokeninfo .chart1 {
+	left: 54px;
+	background-image: url(assets/image/3/chart1.png);
+}
+
+#tokeninfo .chart2 {
+	left: 566px;
+	background-image: url(assets/image/3/chart2.png);
+}
+
+#tokeninfo .chart-inner {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+#tokeninfo .chart-inner-cell {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+#tokeninfo .chart-frame {
+	top: 1670px;
+	position: absolute;
+	background-image: url(assets/image/3/Token_rectangle_black.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 419px;
+	height: 379px;
+}
+
+#tokeninfo .cf1 {
+	left: 47px;
+}
+
+#tokeninfo .cf2 {
+	left: 559px;
+}
+
+#tokeninfo .cf-title {
+	width: 100%;
+	padding-left: 38px;
+	padding-right: 38px;
+	margin-top: 55px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(255, 255 , 255);
+	text-align: left;
+}
+
+#tokeninfo .cf-content {
+	width: 100%;
+	padding-left: 38px;
+	padding-right: 38px;
+	margin-top: 28px;
+	font-size: 14px;
+	color: rgb(255, 255 , 255);
+	opacity: 0.9;
+	text-align: left;
+}
+
+#tokeninfo .cf-content-image {
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 38px;
+	margin-top: 18px;
+}
+
+#tokeninfo .cfci1 {
+	width: 289px;
+	height: 46px;
+	background-image: url(assets/image/3/pic1.png);
+}
+
+#tokeninfo .cfci2 {
+	width: 268px;
+	height: 47px;
+	background-image: url(assets/image/3/pic2.png);
+}
+
+
 /* contact.php stylesheet */
 #contact { height: 733px; }
 
