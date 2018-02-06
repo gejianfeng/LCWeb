@@ -1058,6 +1058,32 @@ body {
 	color: #a7a7a9;
 }
 
+/* faq.php stylesheet */
+#faq { min-height: 1227px; }
+
+#faq .header {
+	background-image: url(assets/image/7/FAQ_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: visible;
+	height: 488px;
+}
+
+#faq .title {
+	font-size: 48px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	top: 170px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#faq .content {
+	background-color: #050c26;
+	min-height: 739px;
+}
+
 /* tokeninfo.php stylesheet */
 #tokeninfo { height: 2968px; }
 
