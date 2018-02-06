@@ -1195,41 +1195,56 @@ body {
 }
 
 #tokeninfo .content-table-title-line { top: 278px; }
-#tokeninfo .content-table-l1 { top: 348px; }
-#tokeninfo .content-table-l2 { top: 418px; }
-#tokeninfo .content-table-l3 { top: 488px; }
-#tokeninfo .content-table-l4 { top: 558px; }
-#tokeninfo .content-table-l5 { top: 628px; }
-#tokeninfo .content-table-l6 { top: 698px; }
-#tokeninfo .content-table-l7 { top: 768px; }
-#tokeninfo .content-table-l8 { top: 838px; }
-#tokeninfo .content-table-l9 { top: 908px; }
 
-#tokeninfo .content-table-row-left {
+#tokeninfo .content-table-row {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	left: 0px;
+}
+
+#tokeninfo .ctr1 { top: 278px; }
+#tokeninfo .ctr2 { top: 348px; }
+#tokeninfo .ctr3 { top: 418px; }
+#tokeninfo .ctr4 { top: 488px; }
+#tokeninfo .ctr5 { top: 558px; }
+#tokeninfo .ctr6 { top: 628px; }
+#tokeninfo .ctr7 { top: 698px; }
+#tokeninfo .ctr8 { top: 768px; }
+#tokeninfo .ctr9 { top: 838px; }
+
+#tokeninfo .content-table-bottom-line {
+	top: 70px;
+}
+
+#tokeninfo .content-table-row-text1 {
 	left: 60px;
+	top: 26px;
 	font-size: 18px;
 	color: #42b4e0;
 	text-align: left;
 	position: absolute;
 }
 
-#tokeninfo .content-table-row-right {
+#tokeninfo .content-table-row-text2 {
 	left: 463px;
+	top: 26px;
 	font-size: 18px;
 	color: rgb(255, 255, 255);
 	text-align: left;
 	position: absolute;
 }
 
-#tokeninfo .content-table-r1 { top: 304px; }
-#tokeninfo .content-table-r2 { top: 374px; }
-#tokeninfo .content-table-r3 { top: 444px; }
-#tokeninfo .content-table-r4 { top: 514px; }
-#tokeninfo .content-table-r5 { top: 584px; }
-#tokeninfo .content-table-r6 { top: 654px; }
-#tokeninfo .content-table-r7 { top: 724px; }
-#tokeninfo .content-table-r8 { top: 794px; }
-#tokeninfo .content-table-r9 { top: 864px; }
+#tokeninfo .content-table-row-icon {
+	background-image: url(assets/image/3/Token_arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 14px;
+	height: 9px;
+	position: absolute;
+	left: 953px;
+	top: 30px;
+}
 
 #tokeninfo .btc-icon {
 	background-image: url(assets/image/3/icon_BTB.png);
@@ -1238,7 +1253,7 @@ body {
 	height: 38px;
 	width: 38px;
 	position: absolute;
-	top: 855px;
+	top: 16px;
 	left: 463px;
 }
 
@@ -1248,6 +1263,7 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: left;
 	position: absolute;
+	top: 26px;
 }
 
 #tokeninfo .eth-icon {
@@ -1257,7 +1273,7 @@ body {
 	height: 38px;
 	width: 38px;
 	position: absolute;
-	top: 855px;
+	top: 16px;
 	left: 645px;
 }
 
@@ -1267,6 +1283,7 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: left;
 	position: absolute;
+	top: 26px;
 }
 
 #tokeninfo .chart {

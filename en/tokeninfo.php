@@ -58,30 +58,71 @@ Template Name: tokeninfo.php
 			<div class="content-table-title-r">2st Round Private Sale Tile:<br/>Second Quarter of 2018</div>
 			<div class="content-gray-line content-table-title-line"></div>
 
-			<div class="content-gray-line content-table-l1"></div>
-			<div class="content-gray-line content-table-l2"></div>
-			<div class="content-gray-line content-table-l3"></div>
-			<div class="content-gray-line content-table-l4"></div>
-			<div class="content-gray-line content-table-l5"></div>
-			<div class="content-gray-line content-table-l6"></div>
-			<div class="content-gray-line content-table-l7"></div>
-			<div class="content-gray-line content-table-l8"></div>
-			<div class="content-gray-line content-table-l9"></div>
+			<div class="content-table-row ctr1">
+				<div class="content-table-row-text1">Total Token</div>
+				<div class="content-table-row-text2">2,000,000,000 LIN</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
 
-			<div class="content-table-row-left content-table-r1">Total Token Supply</div><div class="content-table-row-right content-table-r1">2,000,000,000 LIN</div>
-			<div class="content-table-row-left content-table-r2">Token Available</div><div class="content-table-row-right content-table-r2">1,200,000,000 LIN</div>
-			<div class="content-table-row-left content-table-r3">Initial Price</div><div class="content-table-row-right content-table-r3">1 LIN = $0.01</div>
-			<div class="content-table-row-left content-table-r4">1st Round of Private Sale Ratio</div><div class="content-table-row-right content-table-r4">40% of total supply of tokens</div>
-			<div class="content-table-row-left content-table-r5">2nd Round of Private Sale Ratio</div><div class="content-table-row-right content-table-r5">20% of total supply of tokens</div>
-			<div class="content-table-row-left content-table-r6">Hard Cap</div><div class="content-table-row-right content-table-r6">$ 12,000,000</div>
-			<div class="content-table-row-left content-table-r7">Soft Cap</div><div class="content-table-row-right content-table-r7">$ 6,000,000</div>
-			<div class="content-table-row-left content-table-r8">Token Format</div><div class="content-table-row-right content-table-r8">ERC-20</div>
-			<div class="content-table-row-left content-table-r9">Accepted Payments</div>
+			<div class="content-table-row ctr2">
+				<div class="content-table-row-text1">Token Available</div>
+				<div class="content-table-row-text2">1,200,000,000 LIN</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
 
-			<div class="btc-icon"></div>
-			<div class="btc-name content-table-r9">BTC , BNB</div>
-			<div class="eth-icon"></div>
-			<div class="eth-name content-table-r9">ETH</div>
+			<div class="content-table-row ctr3">
+				<div class="content-table-row-text1">Initial Price</div>
+				<div class="content-table-row-text2">1 LIN = $0.01</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
+
+			<div class="content-table-row ctr4">
+				<div class="content-table-row-text1">1st Round of Private Sale Ratio</div>
+				<div class="content-table-row-text2">40% of total supply of tokens</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
+
+			<div class="content-table-row ctr5">
+				<div class="content-table-row-text1">2nd Round of Private Sale Ratio</div>
+				<div class="content-table-row-text2">20% of total supply of tokens</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
+
+			<div class="content-table-row ctr6">
+				<div class="content-table-row-text1">Hard Cap</div>
+				<div class="content-table-row-text2">$ 12,000,000</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
+
+			<div class="content-table-row ctr7">
+				<div class="content-table-row-text1">Soft Cap</div>
+				<div class="content-table-row-text2">$ 6,000,000</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
+
+			<div class="content-table-row ctr8">
+				<div class="content-table-row-text1">Token Format</div>
+				<div class="content-table-row-text2">ERC-20</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
+
+			<div class="content-table-row ctr9">
+				<div class="content-table-row-text1">Accepted Payments</div>
+				<div class="btc-icon"></div>
+				<div class="btc-name">BTC , BNB</div>
+				<div class="eth-icon"></div>
+				<div class="eth-name">ETH</div>
+				<div class="content-table-row-icon"></div>
+				<div class="content-gray-line content-table-bottom-line"></div>
+			</div>
 
 			<div class="content-title content-title-2">TOKEN &amp; FUNDS ALLOCATION</div>
 
