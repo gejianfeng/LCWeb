@@ -1082,6 +1082,50 @@ body {
 #faq .content {
 	background-color: #050c26;
 	min-height: 739px;
+	padding-top: 1px;
+}
+
+#faq .content-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	text-align: center;
+}
+
+#faq .content-line {
+	width: 100%;
+	height: 2px;
+	background-color: #3e424d;
+}
+
+#faq .content-frame {
+	width: 100%;
+	height: 70px;
+	margin-top: 0px;
+	padding-top: 1px;
+	cursor:pointer;
+}
+
+#faq .content-frame-title {
+	padding-left: 35px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	width: 100%;
+	font-size: 18px;
+	color: #42b4e0;
+	text-align: left;
+}
+
+#faq .content-frame-icon {
+	background-image: url(assets/image/7/FAQ_more.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 34px;
+	height: 34px;
+	margin-left: 955px;
+	margin-bottom: 18px;
+	margin-top: -56px;
 }
 
 /* tokeninfo.php stylesheet */
