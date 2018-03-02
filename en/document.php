@@ -43,7 +43,7 @@ Template Name: document.php
 
 	function OnDocumentClicked(value)
 	{
-		alert(value);
+		//alert(value);
 	}
 
 	function OnNextClicked()

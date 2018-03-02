@@ -9,7 +9,7 @@ Template Name: faq.php
 <script type="text/javascript">
 	function OnDocumentClicked(value)
 	{
-		alert(value);
+		//alert(value);
 	}
 </script>
 
