@@ -147,7 +147,7 @@ body {
 }
 
 #banner .documents {
-	right: 425px;
+	right: 355px;
 	background-image: url(assets/image/common/nav_document_unselected.png);
 	background-size: 13px 11px;
 	background-repeat: no-repeat;
@@ -157,7 +157,7 @@ body {
 }
 
 #banner .roadmap {
-	right: 544px;
+	right: 470px;
 	background-image: url(assets/image/common/nav_roadmap_unselected.png);
 	background-size: 12px 15px;
 	background-repeat: no-repeat;
@@ -167,7 +167,7 @@ body {
 }
 
 #banner .tokensale {
-	right: 645px;
+	right: 580px;
 	background-image: url(assets/image/common/nav_token_unselected.png);
 	background-size: 17px 13px;
 	background-repeat: no-repeat;
@@ -177,7 +177,7 @@ body {
 }
 
 #banner .howworks {
-	right: 760px;
+	right: 705px;
 	background-image: url(assets/image/common/nav_work_unselected.png);
 	background-size: 19px 13px;
 	background-repeat: no-repeat;
@@ -187,7 +187,7 @@ body {
 }
 
 #banner .whattosolve {
-	right: 945px;
+	right: 900px;
 	background-image: url(assets/image/common/nav_solve_unselected.png);
 	background-size: 14px 12px;
 	background-repeat: no-repeat;

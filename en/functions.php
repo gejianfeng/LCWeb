@@ -53,14 +53,14 @@ function get_top_banner()
 			$ret .= "<div class='roadmap navsize text-transparent' style='cursor:pointer;' onclick='SwitchPage(4)'>ROADMAP</div>";
 		}
 
-		if (is_page('team')) 
-		{
-			$ret .= "<div class='team navsize'>TEAM</div>";
-		}
-		else
-		{
-			$ret .= "<div class='team navsize text-transparent' style='cursor:pointer;' onclick='SwitchPage(6)'>TEAM</div>";
-		}
+		//if (is_page('team')) 
+		//{
+		//	$ret .= "<div class='team navsize'>TEAM</div>";
+		//}
+		//else
+		//{
+		//	$ret .= "<div class='team navsize text-transparent' style='cursor:pointer;' onclick='SwitchPage(6)'>TEAM</div>";
+		//}
 
 		if (is_page('tokeninfo')) 
 		{

@@ -53,7 +53,7 @@ Template Name: index.php
 				<span class="ds text">Direct Sales</span>
 				<span class="sm text">Service Market</span>
 				<span class="ep text">Efficient Promoting</span>
-				<span class="af text">Alernative Funding</span>
+				<span class="af text">Alternative Funding</span>
 				<span class="tp text">Ticket Pricing</span>
 			</div>
 		</div>
